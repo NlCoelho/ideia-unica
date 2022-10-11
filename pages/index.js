@@ -3,7 +3,7 @@ import {useState} from 'react';
 function Home() {
     return (
         <div>
-            <h2>Home 2</h2>
+            <h1>Nova Home</h1>
             <Contador />
         </div>
     )    
@@ -13,7 +13,7 @@ function Contador () {
     const [contador, setContador]= useState(1);
     
     function adicionarContador() {
-        setContador(contador +1);
+        setContador(2*contador +1);
     }
 
     return (
