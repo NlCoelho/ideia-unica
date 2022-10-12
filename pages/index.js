@@ -2,7 +2,28 @@ import {useState} from 'react';
 
 function Home() {
     return (
-        <header class="cabecalho container">
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title> MusicDot </title>
+		<link rel="icon" href="img/favicon.ico">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/cabecalho.css">
+		<link rel="stylesheet" href="css/rodape.css">
+		<link rel="stylesheet" href="css/form-newsletter.css">
+		<link rel="stylesheet" href="css/container.css"> 
+		<link rel="stylesheet" href="css/cursos.css">
+		<link rel="stylesheet" href="css/video.css">
+		<link rel="stylesheet" href="css/planos.css">
+		<link rel="stylesheet" href="css/beneficios.css">
+		<link rel="stylesheet" href="css/chamada-youtube.css">
+		<link rel="stylesheet" href="css/chamada-app.css">
+		
+	</head>
+
+	<body>
+		<header class="cabecalho container">
 			<a href="index.html">
 				<img class="cabecalho__logo" src="img/musicdot-logo-light.svg" title="Ir para a página inicial da Musicdot" alt="logo MusicDot">
 			</a>
@@ -243,10 +264,12 @@ function Home() {
 			</section>
 			
 		</footer>
+		
+	</body>
     )    
 }
 
-function Contador () {
+function contador () {
     const [contador, setContador]= useState(1);
     
     function adicionarContador() {
