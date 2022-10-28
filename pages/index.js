@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-function Home() {
+export default function Home() {
     return (
         <div>
             <h2>Home 2</h2>
@@ -23,4 +23,3 @@ function Contador () {
         </div>
     )
 }
-export default Home  
